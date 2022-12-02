@@ -27,7 +27,7 @@ module.exports = {
     // },
 
     // enforce a password for creating new sessions. set to null to disable
-    password: 'sharkie4life',
+    password: 'gamesbyalso',
 
     // disable or enable localStorage sync (turn off if clients send over huge localStorage data, resulting in huge memory usages)
     disableLocalStorageSync: false,
@@ -62,7 +62,7 @@ module.exports = {
         cacheCheckInterval: 1000 * 60 * 10, // 10 minutes
         deleteUnused: true,
         staleCleanupOptions: {
-            staleTimeout: 1000 * 60 * 60 * 24 * 3, // 3 days
+            staleTimeout: 1000 * 60 * 60 * 24 * 100, // 3 days
             maxToLive: null,
             staleCheckInterval: 1000 * 60 * 60 * 6 // 6 hours
         },
